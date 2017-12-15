@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+  int x;
+  cin >> x;
+  int a[x], b[x], i, somaAB[x];
+  for (i = 0; i < x; i++){
+    cin >> a[i];
+  }
+  for (i = 0; i < x; i++){
+    cin >> b[i];
+  }
+  for (i = 0; i < x; i++){
+    somaAB[i] = a[i] + b[i];
+    cout << somaAB[i] << " ";
+  }
+}
